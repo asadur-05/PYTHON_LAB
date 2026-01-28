@@ -24,7 +24,7 @@ print("Reverse Printing",li[::-1])
 str = "Md. Asadur Rahaman"
 str2 = "Hello," + " " + str
 print(str2)
-str[0] = "S" #return error string is immutable
+str[0] = "S" #return error because string is immutable
 print(str)
 
 str = "racecar"
