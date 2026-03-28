@@ -4,14 +4,14 @@ class Node:
         self.left_node = None
         self.right_node = None
         self.parent_node = None
-def insert(root,value):
+def insert(root,val):
     if root is None:
-        return Node(value)
+        return Node(val)
     else:
-        if value <= root.data:
-            root.left_node = insert(root.left_node, value)
+        if val <= root.data:
+            root.left_node = insert(root.left_node, val)
         else:
-            root.right_node = insert(root.right_node, value)
+            root.right_node = insert(root.right_node, val)
     return root
 # root = None
 # a = [10,40,15,24,8,7,52]
