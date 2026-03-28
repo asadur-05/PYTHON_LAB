@@ -1,12 +1,12 @@
 
-a =["Avengers", "Iron Man", "Captain America", "Thor", "Hulk"]
+a =["Kawasaki", "Zx10R", "BMW M4", "S1000RR", "Supra"]
 print(a)
 #2)Access element in list in python
 print(a[0])
 print(a[1])
 #3)Modify list in python.
-a[0] = "Iron Man"
-a[1] = "Black Widow"
+a[0] = "Chevrolet"
+a[1] = "Fortuner"
 print(a)
 #4)Add remove elements in list in python.
 b=[10,25,45,17]
